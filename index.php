@@ -70,7 +70,7 @@
 			<h1>Graphic Design</h1>
 			<ul class="fancy">
 			<?php 
-				$f = new phpFlickr("1c1593d08a7b5af865f972a95e2bb367"); 
+				$f = new phpFlickr("78129c3974ffe89d3127cfa07c06cc2e"); 
 			
 				$person = $f->people_findByUsername("fbrogers-art");
 				$photos_mine = $f->photos_search(array("user_id"=>$person['id'], "per_page"=>22));
@@ -92,7 +92,7 @@
 			<h1>Photography</h1>
 			<ul class="fancy">
 			<?php 
-				$f = new phpFlickr("1c1593d08a7b5af865f972a95e2bb367"); 
+				$f = new phpFlickr("78129c3974ffe89d3127cfa07c06cc2e"); 
 			
 				$person = $f->people_findByUsername("fbrogers");
 				$photos_mine = $f->photos_search(array("user_id"=>$person['id'], "tags"=>"portfolio", "per_page"=>33));
